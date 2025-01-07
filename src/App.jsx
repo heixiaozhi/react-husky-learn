@@ -6,6 +6,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const name = '123'
+  const age = 13
+  console.log(name, age)
   return (
     <>
       <div>
