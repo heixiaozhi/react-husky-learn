@@ -7,8 +7,6 @@ function App() {
   const [count, setCount] = useState(0)
   const name = '123'
   const age = 13
-  const house = '洛杉矶'
-  const package = 'vite'
   console.log(name, age)
   return (
     <>
