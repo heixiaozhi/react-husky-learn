@@ -7,7 +7,8 @@ function App() {
   const [count, setCount] = useState(0)
   const name = '123'
   const age = 13
-  console.log(name, age)
+  const pack = 'test'
+  console.log(name, age, pack)
   return (
     <>
       <div>
