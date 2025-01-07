@@ -8,8 +8,8 @@ function App() {
   const name = '123'
   const age = 13
   const house = '洛杉矶'
-  console.log(name, 
-    age)
+  const package = 'vite'
+  console.log(name, age)
   return (
     <>
       <div>
