@@ -9,6 +9,12 @@ function App() {
   const age = 13
   const pack = 'test'
   console.log(name, age, pack)
+
+  const arr = () => {
+    return 'hh'
+  }
+  console.log(arr)
+
   return (
     <>
       <div>

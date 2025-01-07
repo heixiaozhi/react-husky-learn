@@ -35,7 +35,7 @@ export default [
       ...eslintConfigPrettier.rules, // 禁用与 Prettier 冲突的规则
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-      'prettier/prettier': 'error', // 启用 Prettier 规则
+      'prettier/prettier': ['error', { endOfLine: 'auto' }], // 启用 Prettier 规则
     },
   },
 ]
